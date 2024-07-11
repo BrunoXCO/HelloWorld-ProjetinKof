@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetin KoF - Hello World</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilin.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/images/png-logo.png" alt="Logo KoF">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="iori" data-name="Iori"
+                    data-description="Iori possui chamas roxas. É descendente do clã Yagami, que tem uma rivalidade ancestral com o clã Kusanagi de Kyo.">
+                    <img src="./src/images/1-Iori.png" alt="Personagem Iori" />
+                </li>
+                <li class="personagem" id="k" data-name="K'"
+                    data-description="K' pode controlar o fogo, tal habilidade foi implantada nele pela organização NESTS, que o criou para derrotar Kyo.">
+                    <img src="./src/images/1-K.png" alt="Personagem K" />
+                </li>
+
+                <li class="personagem" id="kyo" data-name="Kyo"
+                    data-description="Kyo tem o poder de controlar fogo. É o herdeiro do clã Kusanagi e tem a responsabilidade de proteger o mundo de Orochi.">
+                    <img src="./src/images/1-Kyo.png" alt="Personagem Kyo" />
+                </li>
+
+                <li class="personagem" id="kula" data-name="Kula"
+                    data-description="Kula controla o gelo. Foi criada pela organização NESTS como uma contraparte de K', para neutralizar suas habilidades de fogo.">
+                    <img src="./src/images/1-Kula.png" alt="Personagem Kula" />
+                </li>
+
+                <li class="personagem" id="leona" data-name="Leona"
+                    data-description="Leona é especialista em combate e utiliza armas e explosivos. Ela luta para controlar a maldição de Orochi que há dentro dela.">
+                    <img src="./src/images/1-Leona.png" alt="Personagem Leona" />
+                </li>
+
+                <li class="personagem" id="yashiro" data-name="Yashiro"
+                    data-description="Yashiro é um lutador físico com golpes de impacto pesado. Ele é um dos Quatro Reis Celestiais de Orochi e busca ressucitá-lo.">
+                    <img src="./src/images/1-Yashiro.png" alt="Personagem Yashiro" />
+                </li>
+
+                <li class="personagem" id="terry" data-name="Terry"
+                    data-description="Terry é um lutador de rua especializado em artes marciais. Ele busca vingança contra Geese Howard, o homem que matou seu pai.">
+                    <img src="./src/images/1-Terry.png" alt="Personagem Terry" />
+                </li>
+
+                <li class="personagem" id="mai" data-name="Mai"
+                    data-description="Mai utiliza técnicas ninjas e de fogo. É uma ninja do clã Shiranui e tem ligação romântica com Andy Bogard, irmão de Terry.">
+                    <img src="./src/images/1-Mai.png" alt="Personagem Mai" />
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/images/png-Iori.png" alt="Personagem Selecionado" />
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Iori</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Iori possui chamas roxas. É descendente do clã Yagami, que tem uma rivalidade ancestral com o clã Kusanagi de Kyo.
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
